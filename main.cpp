@@ -16,9 +16,9 @@ int multiplication (int a, int b)
     return a * b;
 }
 //------------------------------------------------------------------------------
-int division (int a, int b)
+double division (int a, int b)
 {
-    return a / b;
+    return static_cast<double>(a) / b;
 }
 //------------------------------------------------------------------------------
 int main()
